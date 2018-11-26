@@ -2,7 +2,6 @@ public class Main {
 
     public static void main(String [] args){
 
-
 //        /* 1 Declare Array and */
 //        int[] myArray = new int[10];
 //        for (int i = 0; i <100; i++) {
@@ -21,6 +20,14 @@ public class Main {
 //
 //        System.arraycopy(myCoffee, 5, order, 0, myCoffee.length-5);
 //        System.out.println(new String(order));
+
+//        /* 4 Array Objects */
+//        ExampleInt[] objArray = new ExampleInt[10];
+//        for (int i = 0; i < 10 ; i++) {
+//            objArray[i] = new ExampleInt();
+//            objArray[i].setX(i);
+//        }
+
     }
 
 }
