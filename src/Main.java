@@ -1,3 +1,7 @@
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
+
 public class Main {
 
     public static void main(String [] args){
@@ -28,6 +32,14 @@ public class Main {
 //            objArray[i].setX(i);
 //        }
 
+        List<ExampleInt> myIntegers = new ArrayList<>();
+        myIntegers.add(new ExampleInt(10));
+        myIntegers.add(new ExampleInt(20));
+        myIntegers.add(new ExampleInt(30));
+
+        for (ExampleInt e: myIntegers) {
+            System.out.println(e.getX());
+        }
     }
 
 }
