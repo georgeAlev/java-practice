@@ -1,6 +1,5 @@
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.List;
+import java.util.*;
+
 
 public class Main {
 
@@ -28,18 +27,41 @@ public class Main {
 //        /* 4 Array Objects */
 //        ExampleInt[] objArray = new ExampleInt[10];
 //        for (int i = 0; i < 10 ; i++) {
-//            objArray[i] = new ExampleInt();
-//            objArray[i].setX(i);
+//            objArray[i] = new ExampleInt(i);
 //        }
 
-        List<ExampleInt> myIntegers = new ArrayList<>();
-        myIntegers.add(new ExampleInt(10));
-        myIntegers.add(new ExampleInt(20));
-        myIntegers.add(new ExampleInt(30));
+//        /* 5 List ExampleInt Implementation */
+//        // Size is prefixed (capacity=10). If it's full and a new element is added
+//        // then gets copied into a larger one (Cost'a a lot)
+//        List<ExampleInt> myIntegers = new ArrayList<>();
+//        myIntegers.add(new ExampleInt(10));
+//        myIntegers.add(new ExampleInt(20));
+//        myIntegers.add(new ExampleInt(30));
+//
+//        /* 6 Use iterator to remove object */
+//        Iterator<ExampleInt> iter = myIntegers.iterator();
+//        while (iter.hasNext()){
+//            ExampleInt e = iter.next();
+//            System.out.println(e.getX());
+//            if(e.getX()==20){
+//                iter.remove();
+//            }
+//        }
+//
+//        System.out.println("\nAfter removal");
+//        for (ExampleInt e: myIntegers) {
+//            System.out.println(e.getX());
+//        }
 
-        for (ExampleInt e: myIntegers) {
-            System.out.println(e.getX());
-        }
+        /* 7 Linked List Example */
+        // Non fixed size is a plus
+        List<ExampleInt> myLinkedIntegers = new LinkedList<>();
+        myLinkedIntegers.add(new ExampleInt(40));
+        myLinkedIntegers.add(new ExampleInt(50));
+        myLinkedIntegers.add(new ExampleInt(60));
+
+
+
     }
 
 }
