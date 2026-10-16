@@ -26,3 +26,7 @@ To run one exercise, open its class in an IDE and run `main()`, or after `./mvnw
 ```bash
 java -cp target/classes basics.IntegerTrap
 ```
+
+## License
+
+[MIT](LICENSE)
