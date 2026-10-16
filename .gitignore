@@ -1,5 +1,21 @@
-# Ignored Files #
+# Build output
+target/
+out/
+*.class
 
-out
+# IntelliJ IDEA
+.idea/
 *.iml
-.idea
+
+# Eclipse / VS Code
+.classpath
+.project
+.settings/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Maven wrapper download (the script and properties are committed)
+.mvn/wrapper/maven-wrapper.jar

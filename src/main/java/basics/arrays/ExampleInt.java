@@ -1,3 +1,5 @@
+package basics.arrays;
+
 public class ExampleInt {
 
     private int x;
